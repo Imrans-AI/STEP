@@ -37,7 +37,7 @@ STEP integrates:
 ## Installation
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/STEP.git
+git clone https://github.com/Imrans-AI/STEP.git
 cd STEP
 pip install -r requirements.txt
 ```
