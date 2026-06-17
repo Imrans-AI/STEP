@@ -56,7 +56,7 @@ pip install -r requirements.txt
 
 ### Download Pre-trained Checkpoint
 
-Download from Zenodo: [DOI: XX.XXXXX/zenodo.XXXXXXX]
+Download from Zenodo: [DOI to be assigned upon publication]
 
 ```
 models/checkpoints/step_600epi_20260402_164333/best_model.pt
