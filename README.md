@@ -239,6 +239,16 @@ MART-1/Melan-A melanoma antigen: ROC-AUC **0.983**.
 
 ---
 
+## Data and Model Availability
+
+Processed datasets and the trained model checkpoint are archived on Zenodo:
+**DOI: [10.5281/zenodo.21473727](https://doi.org/10.5281/zenodo.21473727)** (CC-BY-4.0)
+
+Contents: 600-epitope train/validation/test splits; cancer-specific held-out test sets (melanoma, lung) in full and overlap-free forms; consensus structure-prior contact map; physicochemical index; trained STEP checkpoint (`best_model.pt`).
+
+Physicochemical interaction maps (`physchem_maps.npy`) are regenerable from the provided splits via `compute_physchem.py`. Raw source databases (VDJdb, McPAS-TCR, IEDB, STCRdab) are available from their respective public repositories.
+
+---
 ## Citation
 
 If you use STEP in your research, please cite:
@@ -246,9 +256,10 @@ If you use STEP in your research, please cite:
 ```bibtex
 @article{imran2026step,
   title={STEP: Structure-Informed Physicochemical Representations Improve Generalization in TCR--Epitope Binding Prediction},
-  author={Imran, Muhammad1,2 and [Syed Mansoor Jan1,2, Muhammad Rizwan1,2, Adil Farooq1,2, Waqar Ali1,2, Yanjing Wang3, Numan Yousaf1,2, Jiayi Li1,2, Wenji Ma5, Dongqing Wei*1,2,4,6]},
+  author={Imran, Muhammad and Jan, Syed Mansoor and Rizwan, Muhammad and Farooq, Adil and Ali, Waqar and Wang, Yanjing and Yousaf, Numan and Li, Jiayi and Ma, Wenji and Liu, Junhe and Wei, Dongqing},
+  journal={Journal of Chemical Information and Modeling},
   year={2026},
-  note={Manuscript submitted to Cell Systems}
+  note={Manuscript under review}
 }
 ```
 
