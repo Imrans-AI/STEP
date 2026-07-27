@@ -6,7 +6,7 @@
 
 Official implementation of **STEP (Structure-Informed TCR–Epitope Prediction)**, a deep learning framework for predicting T-cell receptor (TCR) CDR3β–epitope binding.
 
-> **STEP: Structure-Informed Physicochemical Representations Improve Generalization in TCR–Epitope Binding Prediction**
+> **Contact-Probability Priors from TCR–pMHC Complexes Improve Physicochemical Prediction of TCRβ–Epitope Binding**
 > Muhammad Imran1,2, [Syed Mansoor Jan1,2, Muhammad Rizwan1,2, Adil Farooq1,2, Waqar Ali1,2, Yanjing Wang3, Numan Yousaf1,2, Jiayi Li1,2, Wenji Ma5, Dongqing Wei*1,2,4,6]
 > *Manuscript submitted to Cell Systems *, 2026
 
@@ -255,8 +255,8 @@ If you use STEP in your research, please cite:
 
 ```bibtex
 @article{imran2026step,
-  title={STEP: Structure-Informed Physicochemical Representations Improve Generalization in TCR--Epitope Binding Prediction},
-  author={Imran, Muhammad and Jan, Syed Mansoor and Rizwan, Muhammad and Farooq, Adil and Ali, Waqar and Wang, Yanjing and Yousaf, Numan and Li, Jiayi and Ma, Wenji and Liu, Junhe and Wei, Dongqing},
+  title={Contact-Probability Priors from TCR--pMHC Complexes Improve Physicochemical Prediction of TCR$\beta$--Epitope Binding},
+  author={Imran, Muhammad and Jan, Syed Mansoor and Rizwan, Muhammad and Farooq, Adil and Ali, Waqar and Wang, Yanjing and Yousaf, Numan and Li, Jiayi and Ma, Wenji and Wei, Dongqing},
   journal={Journal of Chemical Information and Modeling},
   year={2026},
   note={Manuscript under review}
