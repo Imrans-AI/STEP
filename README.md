@@ -8,7 +8,7 @@ Official implementation of **STEP (Structure-Informed TCR–Epitope Prediction)*
 
 > **STEP: Prediction of TCRβ–epitope binding specificity via structure-informed physicochemical interaction maps**
 > Muhammad Imran1,2, [Syed Mansoor Jan1,2, Muhammad Rizwan1,2, Adil Farooq1,2, Waqar Ali1,2, Yanjing Wang3, Numan Yousaf1,2, Jiayi Li1,2, Wenji Ma5, Dongqing Wei*1,2,4,6]
-> *Manuscript submitted to Cell Systems *, 2026
+> *Manuscript submitted to Protein Science *, 2026
 
 ---
 
