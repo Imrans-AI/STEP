@@ -24,6 +24,8 @@ Official implementation of **STEP (Structure-Informed TCR–Epitope Prediction)*
 
 ## Model Architecture
 
+![STEP architecture: physicochemical interaction maps, structure priors, ResNet-style CNN and DANet](figures/Figure_1_architecture.png)
+
 STEP integrates:
 1. **5-channel physicochemical interaction maps** (5 × 20 × 15) encoding pairwise TCR–epitope residue properties (hydrophobicity, charge, flexibility, refractivity, area loss)
 2. **Structure-informed weighting** using consensus contact probability maps from 198 PDB structures
