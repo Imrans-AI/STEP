@@ -277,3 +277,16 @@ This project is licensed under the MIT License — see [LICENSE](LICENSE) for de
 
 Muhammad Imran — SJTU
 For questions, open an issue or contact [imran93@sjtu.edu.cn].
+
+## Revision code (Protein Science 1062536)
+
+`revision/` holds the code written for the revision: the evidence scripts behind each
+measurement, the rebuilt data pipeline, and the retraining entry points. It is
+self-contained — `revision/models/` and `revision/data/` carry the revision versions of the
+model and dataset code, which differ from the released versions at the repository root;
+those are left as they were.
+
+Data, trained checkpoints and predictions are archived at Zenodo, not here: concept DOI
+[10.5281/zenodo.21473726](https://doi.org/10.5281/zenodo.21473726), which always resolves to
+the latest version, and this revision at
+[10.5281/zenodo.24359126](https://doi.org/10.5281/zenodo.24359126) (v2.0.0, 19 November 2026).
